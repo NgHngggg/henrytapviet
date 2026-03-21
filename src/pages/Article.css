@@ -1,0 +1,117 @@
+.article-page {
+  background-color: #fcfbf8; /* Slightly warmer white for reading */
+  color: #1a1a1a;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.article-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.back-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #8E8A85;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #1a1a1a;
+}
+
+.article-container {
+  max-width: 680px; /* Optimal reading width for eyes */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.article-header {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.article-category-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #8a7b6b;
+  margin-bottom: 1.5rem;
+}
+
+.article-title-text {
+  font-family: 'Times New Roman', Times, serif; /* True to request */
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  color: #111;
+  letter-spacing: -0.01em;
+}
+
+.article-date-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #a09b95;
+  font-style: italic;
+}
+
+.article-figure {
+  margin: 0 -3rem 4rem -3rem; /* Bleed image out slightly for elegance */
+}
+
+.article-figure img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.article-body {
+  font-family: 'Times New Roman', Times, serif; /* Magazine/Book layout */
+  font-size: 1.25rem;
+  line-height: 1.9;
+  color: #2b2b2b;
+}
+
+.article-body p {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+/* Elegant Drop Cap for the first letter of the article */
+.article-body p:first-child::first-letter {
+  font-size: 4.8rem;
+  float: left;
+  line-height: 0.75;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+  color: #111;
+}
+
+.article-footer {
+  text-align: center;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eaeaea;
+}
+
+.home-link {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #8E8A85;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .article-title-text { font-size: 2.2rem; }
+  .article-figure { margin: 0 0 3rem 0; }
+  .article-body { font-size: 1.15rem; }
+}
