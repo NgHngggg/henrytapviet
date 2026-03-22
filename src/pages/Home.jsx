@@ -7,7 +7,7 @@ function Home() {
     <>
       <header className="site-header">
         <img src="/logo.svg" alt="Henry Tập Viết Logo" style={{ height: '80px', marginBottom: '1rem', display: 'block', margin: '0 auto 1rem auto' }} />
-        <h1 style={{ display: 'none' }}>Henry Tập Viết</h1>
+        <h1>Henry Tập Viết</h1>
         <p className="site-subtitle">Nơi lưu giữ khoảng lặng bình yên</p>
       </header>
 
