@@ -34,9 +34,13 @@ function Article() {
         )}
 
         <article className="article-body">
-          <div style={{ whiteSpace: 'pre-wrap', lineHeight: '1.8' }}>
-            {article.content}
-          </div>
+          {article.content
+            .split('\n')
+            .map(p => p.trim())
+            .filter(Boolean)
+            .map((text, index) => (
+              <p key={index}>{text}</p>
+            ))}
         </article>
       </main>
 

@@ -87,7 +87,7 @@
 }
 
 /* Elegant Drop Cap for the first letter of the article */
-.article-body p:first-child::first-letter {
+.article-body p:first-of-type::first-letter {
   font-size: 4.8rem;
   float: left;
   line-height: 0.75;
