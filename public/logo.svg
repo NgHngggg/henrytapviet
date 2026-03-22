@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <mask id="nibMask">
+      <!-- Everything under white is visible -->
+      <rect width="200" height="200" fill="white" />
+      <!-- Black cuts out the hole and slit -->
+      <circle cx="145" cy="115" r="4" fill="black" />
+      <line x1="145" y1="115" x2="145" y2="170" stroke="black" stroke-width="2" />
+      <!-- Small cutouts on the sides of the nib for the classic fountain pen shape -->
+      <polygon points="125,120 131,120 131,125" fill="black"/>
+      <polygon points="165,120 159,120 159,125" fill="black"/>
+    </mask>
+  </defs>
+  
+  <g fill="#2b2b2b">
+    <!-- Left vertical bar of H -->
+    <rect x="50" y="40" width="30" height="120" />
+    
+    <!-- Middle horizontal bar of H -->
+    <rect x="80" y="90" width="50" height="15" />
+    
+    <!-- Right vertical bar top half -->
+    <rect x="130" y="40" width="30" height="50" />
+    
+    <!-- Right vertical bar bottom half (Pen Nib) -->
+    <path d="M 130 90 
+             L 160 90 
+             L 165 120 
+             C 160 145, 150 160, 145 170 
+             C 140 160, 130 145, 125 120 
+             Z" mask="url(#nibMask)" />
+  </g>
+</svg>
