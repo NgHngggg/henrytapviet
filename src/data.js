@@ -5,7 +5,15 @@ export const ARTICLES = [
     category: "Tản văn",
     date: "07 Tháng 3, 2026",
     image: "/images/img1.jpg",
-    content: "Có những ngày mặt nước ngoài kia tĩnh lặng đến lạ kỳ. Không một gợn sóng, không một tiếng động râm ran... Có lẽ chúng ta cũng nên như vậy, không cần lấp lánh để được chú ý, chỉ cần dịu dàng để tìm thấy bình yên trong chính mình."
+    content: `Có những ngày mặt nước ngoài kia tĩnh lặng đến lạ kỳ. Không một gợn sóng, không một tiếng động râm ran... Có lẽ chúng ta cũng nên như vậy, không cần lấp lánh để được chú ý, chỉ cần dịu dàng để tìm thấy bình yên trong chính mình.
+
+Chúng ta sống trong một thời đại khước từ sự tĩnh lặng. Người ta chạy đua để tỏa sáng, để được nhìn thấy, để khẳng định bản thân giữa đám đông ồn ào. Nhưng đôi khi, chính trong sự ganh đua ấy, ta lại đánh mất đi phần cốt lõi tĩnh tại nhất của tâm hồn. Giống như mặt hồ kia, dẫu không lấp lánh ánh mặt trời chói lọi, nó vẫn đẹp đẽ theo một cách rất riêng—một vẻ đẹp nội tại, sâu thẳm và không cần vay mượn.
+
+Tôi từng nghĩ rằng hạnh phúc là phải vươn tới ánh sáng, rực rỡ và lộng lẫy nhất có thể. Nhưng rồi, sau những giông bão đứt gãy của tuổi trẻ, tôi nhận ra ánh sáng đôi khi làm mắt ta cay xè, còn sự dịu dàng thì xoa dịu mọi vết thương. Một cơn gió thoảng qua, một ánh nhìn thấu cảm, một cái nắm tay không phô trương... Tất thảy những điều ấy không phát sáng, nhưng lại soi đường cho ta qua những ngày u ám nhất.
+
+Dịu dàng không phải là sự yếu đuối. Nó là sự tĩnh lặng của một người đã đi qua đủ bão giông để biết rằng mình chẳng cần phải gầm thét thêm nữa. Giống như mặt nước, nó có thể ôm trọn mọi bầu trời, phản chiếu thế giới rộng lớn mà chẳng hề lên tiếng.
+
+Vậy nên, xin đừng buồn nếu bạn không phải là ngôi sao sáng nhất trên bầu trời. Bạn có thể là dòng sông miết mải chảy về biển lớn, là mặt hồ bình lặng ôm ấp những tán cây. Không cần lấp lánh, chỉ cần dịu dàng. Vì cuối cùng, thứ neo giữ con người ở lại với nhau, và với chính mình, không phải là sự rực rỡ chói lòa, mà là cảm giác bình yên đến từ tận cùng sâu thẳm.`
   },
   {
     id: 2,
